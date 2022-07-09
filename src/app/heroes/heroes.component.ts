@@ -1,5 +1,5 @@
-import { HeroService } from './../hero.service';
-import { Hero } from './../hero.model';
+import { HeroService } from '../core/services/hero.service';
+import { Hero } from '../core/moldels/hero.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heroes.component.css'],
 })
 export class HeroesComponent implements OnInit {
-
+  displayedColumns: string[] = ['id', 'name'];
   heroes: Hero[] = [];
 
 
