@@ -1,5 +1,5 @@
-import { Hero } from '../core/moldels/hero.model';
-import { HeroService } from '../core/services/hero.service';
+import { Hero } from '../../../core/moldels/hero.model';
+import { HeroService } from '../../../core/services/hero.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
